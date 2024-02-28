@@ -1,0 +1,33 @@
+body{
+  padding:0px 450px;
+}
+
+#calculator{
+  border: 1px solid #6f6a6a;
+  border-radius: 5px;
+  width: 200px;
+  background-color: rgb(55, 51, 51);
+  }
+
+#display{
+  margin: 10px;
+  width: 85%;
+ /* font-size: 25px; */
+ height: 35px;
+ background-color: rgb(175, 199, 221);
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+flex-wrap: wrap;
+}
+
+.button{
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  color: red;
+  background-color: rgb(244, 171, 183);
+}
+
